@@ -4,17 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Text in a Box</title>
-    <style>
-        .box {
-            border: 2px solid #333;
-            padding: 20px;
-            width: 300px;
-            margin: 50px auto;
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-        }
-    </style>
+   <style>
+    .box {
+        border: 3px solid #4a6fa5;
+        padding: 25px;
+        width: 300px;
+        margin: 30px auto;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #e8f4f8;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Different colors for each box */
+    #Clocations {
+        border-color: #5cb85c;
+        background-color: #e8f8e8;
+    }
+    
+    #Ccountries {
+        border-color: #f0ad4e;
+        background-color: #fcf8e8;
+    }
+    
+    #Cdepartment {
+        border-color: #d9534f;
+        background-color: #f8e8e8;
+    }
+    
+    #Cemployees {
+        border-color: #5bc0de;
+        background-color: #e8f4f8;
+    }
+    
+    #CjobHistory {
+        border-color: #6f42c1;
+        background-color: #f0e8f8;
+    }
+    
+    #Cjobs {
+        border-color: #fd7e14;
+        background-color: #fff3e8;
+    }
+    
+    #Cregions {
+        border-color: #20c997;
+        background-color: #e8f8f4;
+    }
+</style>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -26,38 +70,28 @@
 </head>
 
 <body>
-<div id="Clocations">
-    <div class="box">
-        Hello! This text is inside a box.
-    </div>
+<div id="Clocations" class="box">
+        
 </div>
 
-<div id="Ccountries">
-    <div class="box">
-        Hello! This text is inside a box.
-    </div>
-
+<div id="Ccountries" class="box">
+        
 </div>
-<div id="Cdepartment">
-    <div class="box">
-        Hello! This text is inside a box.
-    </div>
+<div id="Cdepartment" class="box">
+
 </div>
 <div class="box" id="Cemployees">
 
 </div>
-    <div class="box" id="CjobHistory">
-        Hello! This text is inside a box.
-    </div>
+<div class="box" id="CjobHistory">
+        
+</div>
 
-<div id="Cjobs"><div class="box">
-    Hello! This text is inside a box.
+<div id="Cjobs" class="box">
 </div>
-</div>
-<div id="Cregions">
-    <div class="box">
-        Hello! This text is inside a box.
-    </div>
+
+<div id="Cregions" class="box">
+       
 </div>
     
 </body>
